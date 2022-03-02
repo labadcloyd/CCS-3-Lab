@@ -58,58 +58,48 @@ int main() {
 
 int largest(int num[10]) {
 	int final, i;
-
 	// looping through the array checking each if they are the smallest
 	for (i = 0; i < 10; i++) {
 		if (num[i] > final) {
 			final = num[i];
 		};
 	}
-
 	return final;
 }
 
 int smallest(int num[10]) {
 	int final, i;
-
 	// looping through the array checking each if they are the smallest
 	for (i = 0; i < 10; i++) {
 		if (num[i] < final) {
 			final = num[i];
 		};
 	}
-
 	return final;
 }
 
 float average(int num[10]) {
 	int i;
 	float final;
-
 	// looping through the array adding each to the final float
 	for (i = 0; i < 10; i++) {
 		final += num[i];
 	}
-
 	final = (final/10);
-
 	return final;
 }
 
 int sum(int num[10]) {
 	int i, final = 0;
-
 	// looping through the array adding each to the final int
 	for (i = 0; i < 10; i++) {
 		final = final + num[i];
 	}
-
 	return final;
 }
 
 int product(int num[10]) {
 	int i, final;
-
 	// looping through the array adding each to the final int
 	for (i = 0; i < 10; i++) {
 		if (i == 0) {
@@ -119,14 +109,12 @@ int product(int num[10]) {
 			final *= num[i];
 		}
 	}
-
 	return final;
 }
 
 
 void display(int n[10]) {
 	int i;
-
 	// printing all of the numbers
 	printf("integers in the array: ");
 	for (i = 0; i < 10; i++) {
