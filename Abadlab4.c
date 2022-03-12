@@ -111,8 +111,9 @@ int product(int num[10]) {
 void display(int n[10]) {
 	int i;
 	// printing all of the numbers
-	printf("\n \n integers in the array: ");
+	printf("\n integers in the array: ");
 	for (i = 0; i < 10; i++) {
 		printf(" %d,", n[i]);
 	}
+	printf("\n \n");
 }
