@@ -25,7 +25,7 @@ int main() {
 				strRepeatCount++;
 			}
 		}
-		printf("\nThe letter %c appears in %s %d time(s).", singleChar[0], strings, strRepeatCount);
+		printf("The letter %c appears in %s %d time(s).", singleChar[0], strings, strRepeatCount);
 
 	
   return 0;
