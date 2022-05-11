@@ -16,6 +16,7 @@ int main() {
 			scanf(" %c", &characters[i]);
 		}
 
+		// printing the output 4 times
 		printf("\nOutput after each swap:\n");
 
 		for (int i = 0; i < 4; i++) {
@@ -46,5 +47,4 @@ void swap( char* first, char* second, char* third, char* fourth) {
 	*fourth = firstCopy;
 
 	printf("%c %c %c %c \n", *first, *second, *third, *fourth);
-
 };
