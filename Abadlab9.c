@@ -15,10 +15,17 @@ int main() {
 			printf("\nInput a line: ");
 			gets(strings);
 		}
+
 		
 
 		printf("Input a character: ");
 		scanf("%c", &singleChar);
+
+		while (strlen(singleChar) > 1 || strlen(singleChar) < 1) {
+			printf("\nError: line must not be less than or greater than 1");
+			printf("\nInput a line: ");
+		scanf("%c", &singleChar);
+		}
 
 		for (int i = 0; i < strlen(strings); i++) {
 			if (strings[i] == singleChar[0]) {
